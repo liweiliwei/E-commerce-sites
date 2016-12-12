@@ -1,0 +1,166 @@
+.header-center-login{
+	height:108px;
+
+}
+.header-center-login .center{
+	overflow: hidden;
+}
+.header-center-login-img1{
+	float: left;
+}
+.header-center-login-img2{
+	float: right;
+	margin-right: 100px;
+}
+.content-banner{
+	position: relative;
+	height:785px;
+	background: url(../images/content-banner-bg.jpg)no-repeat center top;
+}
+.login-box{
+	position: absolute;
+	top:125px;
+	right: 200px;
+	width: 326px;
+	height: 459px;
+	box-shadow: 0 0 26px #fcdfdf;
+	background: #fff;
+	padding: 30px 40px 40px 40px ;
+}
+.login-title{
+	width: 326px;
+	height: 31px;
+}
+.login-title p>span{
+	display: block;
+	float: left;
+	height: 31px;
+	width: 48px;
+	font-size: 24px;
+	font-weight: 900;
+}
+.login-title p>a{
+	float: right;
+	font-size: 16px;
+	color: #00C8FF;
+	margin-top: 10px;
+}
+
+.login-info{
+
+	width: 326px;
+	height: 310px;
+	margin-top: 20px;
+	border-bottom: 1px dotted #CDCDCD;
+}
+.phoneNumber{
+	width: 326px;
+	height: 32px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.passWord{
+	width: 326px;
+	height: 32px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.authCode-box{
+	width: 326px;
+	height: 32px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.captcha{
+	float: left;
+	height: 32px;
+	width: 177px;
+}
+.authCode{
+	width: 130px;
+	height:32px;
+	float: right;
+	
+}
+.authCode span{
+	float: left;
+	margin-top: 8px;
+	display: block;
+	height: 20px;
+	width: 75px;
+	border: 1px #C4C4C4 solid;
+	text-align: center;
+	line-height: 20px;
+	color: #00C8FF;
+}
+.authCode b{
+	float: left;
+	margin: 10px 0 0 5px;
+	display: block;
+	height: 16px;
+	width: 42px;
+	font-weight: 100;
+	color: #00C8FF;
+}
+.autoLogin{
+	width: 326px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+.autoLogin input{
+	float: left;
+	margin-top: 3px;
+}
+.autoLogin a{
+	float: right;
+}
+._submit{
+	width: 326px;
+	height: 32px;
+	background: #00C8FF;
+	border: 0;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+.cooperate{
+	margin: 10px 0;
+}
+._clearfix a{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	line-height: 20px;
+}
+._clearfix a>span{
+	float: left;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+._clearfix a:nth-child(1)>span{
+	background: url(../images/other_autoico.png)no-repeat left 0 top 0;
+}
+._clearfix a:nth-child(2)>span{
+	background: url(../images/other_autoico.png)no-repeat left 0 top -30px;
+}
+._clearfix a:nth-child(3)>span{
+	background: url(../images/other_autoico.png)no-repeat left 0 top -60px;
+}
+._clearfix a:nth-child(4)>span{
+	background: url(../images/other_autoico.png)no-repeat left 0 top -90px;
+}
+._clearfix a:nth-child(5)>span{
+	background: url(../images/other_autoico.png)no-repeat left 0 top -120px;
+}
+._clearfix a:nth-child(6)>span{
+	background: url(../images/other_autoico.png)no-repeat left 0 top -180px;
+}
+._clearfix a:nth-child(7)>span{
+	background: url(../images/other_autoico.png)no-repeat left 0 top -210px;
+}

@@ -1,0 +1,399 @@
+.orderInfo-header{
+	height: 108px;
+}
+.orderInfo-header h1{
+	float: left;
+	height: 108px;
+	width: 260px;
+	background: url(../images/logo.jpg) no-repeat left top;
+}
+.orderInfo-payFlow{
+	float: right;
+	width: 444px;
+	height: 108px;
+	margin-right: 80px;
+	background: url(../images/payflow2.jpg) no-repeat left top;
+}
+._container2{
+	background: #F6F6F3;
+	padding-bottom: 35px;
+}
+._container2-center{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+.address-box{
+	height: 308px;
+	background: #FFFFFF;
+	margin-bottom: 5px;
+	padding: 20px 30px 30px;
+}
+
+.address-box h2{
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+.address-box h2>span{
+	width: 19px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    background: url(../images/shopcar_ico.png) no-repeat 0 -53px;
+    float: left;
+    margin: 3px 9px 0 0;
+}
+.address-box h2>em{
+	font-style: normal;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.address-wrap1{
+	display: block;
+}
+.address-wrap2{
+	diplay:none;
+	padding: 20px;
+	color: #00C8FF;
+}
+
+.address-box label{
+	float: left;
+    width: 86px;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+}
+.address-box i{
+	float: left;
+    width: 18px;
+    height: 24px;
+    line-height: 24px;
+    color: #ff643c;
+    margin-top: 2px;
+}
+.address-box p{
+	height: 24px;
+	margin-top: 14px;
+}
+.address-box select{
+	width: 125px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px #c4c4c4 solid;
+    color: #6c6c6c;
+    float: left;
+    margin-right: 10px;
+}
+.address-box input{
+	float: left;
+    height: 14px;
+    line-height: 14px;
+    padding: 4px 0 4px 6px;
+    color: #6c6c6c;
+    border: 1px #c4c4c4 solid;
+}
+
+.address-box-ipt2{
+	width: 420px;
+}
+
+.address-box a{
+	color: #fff;
+    display: block;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: red;
+    margin: 40px 0 0 110px;
+}
+.goodsAndPrice-box{
+
+	background: #FFFFFF;
+	margin-bottom: 5px;
+	padding: 20px 30px 30px;
+}
+.goodsAndPrice-box h2{
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+.goodsAndPrice-box h2>span{
+	width: 19px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    background: url(../images/shopcar_ico.png) no-repeat 0 -53px;
+    float: left;
+    margin: 3px 9px 0 0;
+}
+.goodsAndPrice-box h2>em{
+	font-style: normal;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.goodsAndPrice-box a{
+	float: right;
+	font-size: 14px;
+	margin-top: 12px;
+}
+.payTable table{
+	border-collapse: collapse;
+	border: 0;
+	
+}
+.payTable th{
+	width: 115px;
+	height: 40px;
+	border: 0;
+	background: #000000;
+	color: #FFFFFF;
+}
+.payTable tr{
+	border-bottom: 1px dotted #C4C4C4;
+}
+.payTable td{
+	height: 90px;
+	border: 0;
+	text-align: center;
+	color: #000000;
+}
+.payTable th:first-child{
+	width: 586px;
+}
+.privilege{
+	position: relative;
+	height: 100px;
+
+}
+.privilege-p{
+	width: 120px;
+    height: 13px;
+    line-height: 13px;
+    background: url(../images/shopcar_ico.png) no-repeat 0 -178px;
+    padding-left: 22px;
+    color: #ff643c;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.privilege-balance{
+	margin-top: 15px;
+}
+.privilege-balance span{
+	color: red;
+}
+.allPrice{
+	position:absolute ;
+	bottom: 10px;
+	right: 20px;
+}
+.allPrice i{
+	display: block;
+	float: left;
+	width: 80px;
+	height: 26px;
+	text-align: right;
+}
+.allPrice em{
+	float: left;
+	display: block;
+	width: 120px;
+	height: 26px;
+	text-align: right;
+	font-weight: 600;
+}
+.allPrice-em{
+	color: red;
+	font-size: 22px;
+}
+.payWay-box{
+	height: 616px;
+	background: #FFFFFF;
+	margin-bottom: 5px;
+	padding: 20px 30px 30px;
+}
+.payWay-box h2{
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+.payWay-box h2>span{
+	width: 19px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    background: url(../images/shopcar_ico.png) no-repeat 0 -53px;
+    float: left;
+    margin: 3px 9px 0 0;
+}
+.payWay-box h2>em{
+	font-style: normal;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.payWay-box dl{
+	margin-left: 20px;
+}
+.payWay-box dt{
+	height: 21px;
+	margin-bottom: 15px;
+}
+.payWay-box dd{
+	overflow: hidden;
+}
+.payWays-bank{
+	margin-right: 57px;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 10px;
+}
+.payWays-bank label{
+	float: left;
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	margin: 10px 5px 0 0 ;
+	border: 1px solid #C4C4C4;
+}
+.payWays-bank1{
+	float: left;
+	width: 140px;
+	height: 40px;
+	width: 138px;
+    height: 38px;
+    border: 1px #c4c4c4 solid;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    background: url(../images/shopcar_ico4.png) no-repeat 0 0;
+}
+.payWays-bank2{
+	float: left;
+	width: 140px;
+	height: 40px;
+	width: 138px;
+    height: 38px;
+    border: 1px #c4c4c4 solid;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    background: url(../images/shopcar_ico4.png) no-repeat left 0 top -382px;
+}
+.morePayWays{
+	width: 138px;
+    height: 38px;
+    border: 1px #22c9fc solid;
+    cursor: pointer;
+    line-height: 38px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+}
+.payWays-bank3{
+	float: left;
+	width: 140px;
+	height: 40px;
+	width: 138px;
+    height: 38px;
+    border: 1px #c4c4c4 solid;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    background: url(../images/shopcar_ico4.png) no-repeat left 0 top -190px;
+}
+.payWays-bank4{
+	float: left;
+	width: 140px;
+	height: 40px;
+	width: 138px;
+    height: 38px;
+    border: 1px #c4c4c4 solid;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    background: url(../images/shopcar_ico4.png) no-repeat left 0 top -230px;
+}
+.remark-box{
+	height: 80px;
+	background: #FFFFFF;
+	padding: 20px 30px 30px;
+}
+.remark-box h2{
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+.remark-box h2>span{
+	width: 19px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    background: url(../images/shopcar_ico.png) no-repeat 0 -53px;
+    float: left;
+    margin: 3px 9px 0 0;
+}
+.remark-box h2>em{
+	font-style: normal;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.remark-tip-left{
+	width: 390px;
+	height: 48px;
+	float: left;
+}
+.remark-tip-left input{
+	width: 370px;
+	margin-top: 8px;
+}
+.remark-tip-right{
+	width: 440px;
+	height: 45px;
+	float: right;
+}
+.remark-tip-right span{
+	float: left;
+	width: 300px;
+	height: 42px;
+}
+.remark-tip-right span>i{
+	color: red;
+}
+.remark-tip-right span>em{
+	color: red;
+	font-size: 34px;
+}
+.remark-tip-right a{
+	width: 126px;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    background: #ff643c;
+
+}

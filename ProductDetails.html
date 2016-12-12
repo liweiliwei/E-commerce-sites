@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/productDetails.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+		<script data-main="js/config.js" src="js/require.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Func/productDetail.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="topSupend">
+			<ul>
+				<li>商品参数</li>
+				<li>本单详情</li>
+				<li>使用方法</li>
+				<li>用户口碑</li>
+			</ul>
+			<div class="topSupend-right">
+
+				<i>￥</i>
+				<span>269.0</span>
+				<a href="">加入购物车</a>
+			</div>
+		</div>
+		<div class="borderSide">
+			<div class="login">
+				<i></i>
+				<div class="login-brand">
+					<a href="_login.html">登录</a>
+					<a href="_register.html" class="login-a-1">注册</a>
+					<div class="brand-trigon">
+						<img src="images/右三角.png" />
+					</div>
+				</div>
+			</div>
+			<div class="cart">
+				<i></i>
+				<span>购物车</span>
+				<b>0</b>
+			</div>
+			<div class="_collect">
+				<i></i>
+				<div class="_collect-brand">
+					我的收藏
+					<div class="brand-trigon">
+						<img src="images/右三角.png" />
+					</div>
+				</div>
+			</div>
+			<div class="_history">
+				<i></i>
+				<div class="_history-brand">
+					我看过的
+					<div class="brand-trigon">
+						<img src="images/右三角.png" />
+					</div>
+				</div>
+			</div>
+			<div class="twoCode">
+				<i></i>
+				<div class="twoCode-brand">
+					<dl>
+						<dt><img src="images/zhiwoStoreCode.jpg"/></dt>
+						<dd>知我微信商城</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/androidCode.jpg"/></dt>
+						<dd>Android版App下载</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/iphoneCode.jpg"/></dt>
+						<dd>iphone版App下载</dd>
+					</dl>
+					<div class="twoCode-brand-trigon">
+						<img src="images/右三角.png" />
+					</div>
+				</div>
+			</div>
+			<div class="_service">
+				<i></i>
+				<div class="_service-brand">
+					客服中心
+					<div class="brand-trigon">
+						<img src="images/右三角.png" />
+					</div>
+				</div>
+			</div>
+			<div class="goTop">
+				Top
+			</div>
+		</div>
+		<div class="header-top">
+			<div class="center">
+				<span>欢迎来到知我！这里，用专业呵护美丽。</span>
+				<i class="login-wrap"><a href="_login.html">请登录</a></i>
+				<i class="register-wrap"><a href="_register.html">快速注册</a></i>
+				<ul class="header-top-ul">
+					<li>微信商城
+						<img src="images/下尖号.png" />
+						<ul class="header-top-ul1">
+							<li><img src="images/二维码.png" id="QRcode" /></li>
+						</ul>
+					</li>
+					<li>
+						<img src="images/手机.png" /> 手机知我
+					</li>
+					<li>我的小窝
+						<img src="images/下尖号.png" />
+						<ul class="header-top-ul1">
+							<li>我的订单</li>
+							<li>我的优惠卷</li>
+							<li>我的收藏</li>
+							<li>我的预定</li>
+							<li>我的积分</li>
+						</ul>
+					</li>
+					<li>客服服务
+						<img src="images/下尖号.png" />
+						<ul class="header-top-ul1">
+							<li>帮助中心</li>
+							<li>新浪微博</li>
+							<li>正品承诺</li>
+							<li>真伪查询</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="header_center">
+			<div class="center">
+				<h1>
+				<a href="index.html"><img src="images/logo.jpg"/></a>
+			</h1>
+				<input type="text" name="" id="" value="克莱斯" class="header_center-ipt1" />
+				<input type="button" name="" id="" value="搜索" class="header_center-ipt2" />
+				<ul class="header_center-ul">
+					<li>
+						<a href="">保湿</a>
+					</li>
+					<li>
+						<a href="">面膜</a>
+					</li>
+					<li>
+						<a href="">洗面奶</a>
+					</li>
+					<li>
+						<a href="">补水</a>
+					</li>
+					<li>
+						<a href="">香水</a>
+					</li>
+					<li>
+						<a href="">眼霜</a>
+					</li>
+					<li>
+						<a href="">口红</a>
+					</li>
+				</ul>
+				<div class="shoppingCart">
+					<img src="images/购物车.png" class="shoppingCart-1" />
+					<span><a href="shoppingCart.html">我的购物车</a></span>
+					<img src="images/下尖号.png" class="shoppingCart-2" />
+					<div class="cart-count">
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="center">
+				<ul class="header-bottom-ul1">
+					<li>首页</li>
+					<li class="active">知我商城
+						<img src="images/下尖号-白.png" class="header-bottom-1" />
+						<div class="zhiwoStore">
+							<img src="images/zhiwo-AD.jpg" />
+							<dl>
+								<dt>
+									<div class="zhiwo-logo">
+										
+									</div>
+									<a href="">护肤</a></dt>
+								<dd>
+									<a href="">面膜面贴</a>
+									<a href="">乳液凝露</a>
+									<a href="">洁面卸妆</a>
+									<a href="">眼精华/眼霜</a>
+									<a href="">防晒隔离</a>
+									<a href="">化妆水爽肤水</a>
+									<a href="">眼膜眼贴</a>
+									<a href="">精华</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<div class="zhiwo-logo1">
+										
+									</div>
+									<a href="">药妆</a></dt>
+								<dd>
+									<a href="">乳液面霜</a>
+									<a href="">洁面卸妆</a>
+									<a href="">面部精华</a>
+									<a href="">化妆水爽肤水</a>
+									<a href="">面膜面贴</a>
+									<a href="">喷雾</a>
+									<a href="">眼精华/眼霜</a>
+									<a href="">防晒隔离</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<div class="zhiwo-logo2">
+										
+									</div>
+									<a href="">洗护</a></dt>
+								<dd>
+									<a href="">洗发护发</a>
+									<a href="">口腔护理</a>
+									<a href="">沐浴润体</a>
+									<a href="">身体乳霜</a>
+									<a href="">手足护理</a>
+									<a href="">美体瘦身</a>
+									<a href="">防晒隔离</a>
+									<a href="">润唇膏</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<div class="zhiwo-logo3">
+										
+									</div>
+									<a href="">彩妆香氛</a></dt>
+								<dd>
+									<a href="">唇彩/口红</a>
+									<a href="">女士香水</a>
+									<a href="">粉饼/蜜粉</a>
+									<a href="">男士香水</a>
+									<a href="">睫毛</a>
+									<a href="">眼线</a>
+									<a href="">晒红/胭脂</a>
+									<a href="">粉底/装前乳</a>
+									<a href="">眼影/彩妆盘</a>
+									<a href="">BB霜/CC霜</a>
+								</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<img src="images/home_overseas.gif" />
+					</li>
+				</ul>
+				<div class="header-bottom-box">
+					<div class="header-bottom-box-1">
+						<div class="header-bottom-box-1-logo">
+
+						</div>
+						<span>百度投资</span>
+					</div>
+					<div class="header-bottom-box-1">
+						<div class="header-bottom-box-1-logo1">
+
+						</div>
+						<span>正品保证</span>
+					</div>
+					<div class="header-bottom-box-1">
+						<div class="header-bottom-box-1-logo2">
+
+						</div>
+						<span>2件包邮</span>
+					</div>
+					<div class="header-bottom-box-1">
+						<div class="header-bottom-box-1-logo3">
+
+						</div>
+						<span>30天无理由退换</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="_container3">
+			<div class="center">
+				<div class="singleDetails-wrap">
+					<div class="nowLocation">
+						<a href="">商城首页</a>
+						<i>></i>
+						<a href="">乳液/凝露</a>
+						<i>></i>
+						<a href="">Clinique/倩碧</a>
+						<i>></i>
+						<span>倩碧卓越润肤乳(天才黄油+)125ml（专柜）含...</span>
+					</div>
+					<div class="singleDetails-info">
+						<div class="singleImg-wrap">
+							<div class="small-cursor">
+
+							</div>
+						</div>
+						<div class="singleInfo-intro">
+							<h1>倩碧卓越润肤乳(天才黄油+)125ml（专柜）含油配方</h1>
+							<div class="singleInfo-intro-div1">
+								<i>￥</i>
+								<em>269.0</em>
+								<span>市场价:</span>
+								<del>￥295.0</del>
+							</div>
+							<div class="singleInfo-intro-div2">
+								<p>评 价:</p>
+								<span></span>
+								<a href=""><span>6</span>个人评价</a>
+							</div>
+							<div class="singleInfo-intro-div3">
+								<span>数 量：</span>
+								<div class="addAndCut">
+									<span>-</span><input type="text" name="" id="" value="1" /><span>+</span>
+
+								</div>
+								<a href="">更多Clinique/倩碧产品</a>
+							</div>
+							<p class="singleInfo-intro-p1">
+								<span class="singleInfo-intro-p1-1">满减</span>
+								<span>贝德玛品牌团  满199减30 </span>
+							</p>
+							<div class="singleInfo-intro-div4">
+								<a href="shoppingCart.html">加入购物车</a>
+								<p>收藏</p>
+							</div>
+							<div class="singleInfo-intro-div5">
+								<span>功效</span>
+								<ul>
+									<li>补水</li>
+									<li>保湿</li>
+									<li>润肤</li>
+								</ul>
+							</div>
+
+						</div>
+						<div class="magnifying-glass">
+							<img src="images/放大镜.jpg" class="magnifying-glass-img" />
+						</div>
+					</div>
+				</div>
+				<div class="groupPurchase">
+					<div class="hot-list-brand">
+						<span>品牌热卖</span>
+						<a href="">THE FACE SHOP/菲斯小铺</a>
+						<a href="">THE FACE SHOP/菲斯小铺</a>
+						<a href="">THE FACE SHOP/菲斯小铺</a>
+						<a href="">THE FACE SHOP/菲斯小铺</a>
+						<a href="">THE FACE SHOP/菲斯小铺</a>
+					</div>
+					<div class="group-recommend-purchase">
+						<h2>
+							<p>组合购买</p>
+						</h2>
+						<ul class="group-recommend-purchase-ul">
+							<li><img src="" class="group-recommend-purchase-img1" id="group-recommend-purchase-img1"/>
+								<img src="images/detailadd.png" class="group-recommend-purchase-img2" />
+								<a href="" id = "group-recommend-purchase-a1"></a>
+								<p id="group-recommend-purchase-p1"></p>
+							</li>
+							<li><img src="images/group-2.jpg" class="group-recommend-purchase-img1" />
+								<img src="images/detailadd.png" class="group-recommend-purchase-img2" />
+								<a href="">化妆棉</a>
+								<p><input type="checkbox" name="" id="" value="" /><label>19.00</label></p>
+							</li>
+							<li><img src="images/group-3.jpg" class="group-recommend-purchase-img1" />
+								<img src="images/detailadd.png" class="group-recommend-purchase-img2" />
+								<a href="">护发油</a>
+								<p><input type="checkbox" name="" id="" value="" /><label>69.00</label></p>
+							</li>
+							<li><img src="images/group-4.jpg" class="group-recommend-purchase-img1" />
+								<img src="images/detailequal.png" class="group-recommend-purchase-img2" />
+								<a href="">洁面膏</a>
+								<p><input type="checkbox" name="" id="" value="" /><label>49.00</label></p>
+							</li>
+						</ul>
+						<div class="buy-together">
+							<p class="buy-together-p1"><i>1</i>件商品组合购买</p>
+							<p class="buy-together-p2">知我总价<em></em></p>
+							<a href="javascript:void(0)">购买套组</a>
+						</div>
+					</div>
+				</div>
+				<div class="goodsArguments">
+					<div class="goodsArguments-left">
+						<p>同分类排行RANKING</p>
+						<ul>
+							<li><img src="images/bigTen2.jpg" /></li>
+							<li><img src="images/bigTen3.jpg" /></li>
+							<li><img src="images/bigTen4.jpg" /></li>
+						</ul>
+						<h3>买过还买过</h3>
+						<ul>
+							<li><img src="images/bigTen5.jpg" /></li>
+							<li><img src="images/bigTen6.jpg" /></li>
+							<li><img src="images/bigTen7.jpg" /></li>
+						</ul>
+						<h3>看过还看过</h3>
+						<ul>
+							<li><img src="images/bigTen8.jpg" /></li>
+							<li><img src="images/bigTen9.jpg" /></li>
+							<li><img src="images/bigTen1.jpg" /></li>
+						</ul>
+					</div>
+					<div class="goodsArguments-right">
+						<h2><span></span>
+							<em>商品参数</em>
+							<i>PRODUCT PARAMETERS</i>
+						</h2>
+						<img src="images/coupon1.jpg" />
+						<img src="images/coupon2.jpg" />
+						<img src="images/coupon3.jpg" />
+						<img src="images/coupon4.jpg" />
+						<img src="images/coupon5.jpg" />
+						<img src="images/coupon6.jpg" />
+						<img src="images/coupon7.jpg" />
+						<img src="images/coupon8.jpg" />
+						<h2><span></span>
+							<em>用户口碑</em>
+							<i>USER REPUTATION</i>
+						</h2>
+						<div class="userReputation">
+							
+						</div>
+						<div class="paging">
+							<a href="javascript:void(0)" class="paging-pre">上一页</a>
+							<a href="javascript:void(0)" class="paging-next">下一页</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="footer-center">
+			<div class="center">
+				<dl>
+					<dt>真品保证</dt>
+					<dd>
+						<a href="">品牌合作</a>
+						<a href="">严格把关</a>
+						<a href="">百度投资</a>
+						<a href="">全球品牌提供</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>30天包退</dt>
+					<dd>
+						<a href="">退换货政策</a>
+						<a href="">办理退换货</a>
+						<a href="">售后服务</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>2件包邮</dt>
+					<dd>
+						<a href="">配送政策</a>
+						<a href="">快递查询</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>药妆专柜</dt>
+					<dd>
+						<a href="">肤质判定</a>
+						<a href="">肌肤问题</a>
+						<a href="">达人推荐</a>
+						<a href="">护肤常识</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>关于知我</dt>
+					<dd>
+						<a href="">知我介绍</a>
+						<a href="">商务合作</a>
+						<a href="">友情链接</a>
+						<a href="">开放API</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd>
+						<a href="">购物流程</a>
+						<a href="">支付方式</a>
+						<a href="">化妆品品牌大全</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>联系方式</dt>
+					<dd>
+						<a href="">在线客户咨询</a>
+						<p class="footer-center-p1">热线</p>
+						<p class="footer-center-p2">400-630-1018</p>
+
+					</dd>
+				</dl>
+				<dl>
+					<dt>知我微信商城</dt>
+					<dd><img src="images/weixinCode.jpg" /></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="center">
+				<ul>
+					<li><i></i><span>百度投资</span></li>
+													<li><i></i><span>真品保证</span></li>
+													<li><i></i><span>30天包退</span></li>
+													<li><i></i><span>2件包邮</span></li>
+													</ul>
+												</div>
+											</div>
+											<div class="frindlyLink">
+												<div class="center">
+													<h3>友情链接：</h3>
+													<p>@2011-2014 般若天成（北京）科技有限公司 zhiwo.com 保留一切权利。客服热线：400-630-1018</p>
+													<a href="">京ICP备10047008号</a>
+													<a href="">京ICP证110762号</a>
+													<a href="">网公安备1101054365号</a>
+													<a href="">营业执照</a>
+													<p><img src="images/footer_copy_02.jpg" />
+														<img src="images/footer_copy_03.jpg" />
+														<img src="images/footer_copy_05.jpg" />
+
+													</p>
+												</div>
+											</div>
+	</body>
+
+</html>

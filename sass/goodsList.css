@@ -1,0 +1,235 @@
+._container4 {
+  background: #F6F6F3;
+  padding-top: 35px;
+}
+
+.now-pos {
+  height: 40px;
+  background: #fff;
+  border-bottom: 1px #f6f6f3 solid;
+  line-height: 40px;
+}
+
+.now-pos a {
+  padding: 0 6px;
+  height: 22px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.lb_menu {
+  background: #FFFFFF;
+  padding: 0 20px;
+}
+
+.lb_menu_1 {
+  height: 20px;
+  border-bottom: 1px #f6f6f3 solid;
+  padding: 20px 0;
+  position: relative;
+}
+
+.lb_menu_1 .lb_menu_1_title {
+  color: #00c8ff;
+  font-weight: bold;
+  float: left;
+  margin-right: 18px;
+  width: 50px;
+}
+.lb_menu_1 .lb_menu_1_cnt {
+  width: 940px;
+  height: 20px;
+  float: left;
+  overflow: hidden;
+}
+.lb_menu_1 .lb_menu_1_cnt .a_wrap {
+  overflow: hidden;
+}
+.lb_menu_1 .lb_menu_1_cnt .a_wrap a {
+  color: #6c6c6c;
+  display: block;
+  width: 90px;
+  height: 20px;
+  float: left;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.lb_menu_1 .showOrHide1 {
+  float: right;
+  cursor: pointer;
+}
+
+.lb_menu_2 {
+  height: 84px;
+  padding: 20px 0;
+  border-bottom: 1px #e3e3e3 dotted;
+}
+.lb_menu_2 .lb_menu_2_title {
+  color: #00c8ff;
+  font-weight: bold;
+  float: left;
+  margin-right: 18px;
+  width: 50px;
+}
+.lb_menu_2 .lb_menu_2_cnt {
+  width: 940px;
+  height: 84px;
+  float: left;
+  overflow: hidden;
+}
+.lb_menu_2 .lb_menu_2_cnt a {
+  color: #6c6c6c;
+  display: block;
+  width: 90px;
+  height: 20px;
+  float: left;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.lb_menu_2 .showOrHide2 {
+  float: right;
+  cursor: pointer;
+}
+
+.lb_menu_3 {
+  height: 54px;
+  padding: 20px 0;
+  border-bottom: 1px #e3e3e3 dotted;
+}
+.lb_menu_3 .lb_menu_3_title {
+  color: #00c8ff;
+  font-weight: bold;
+  float: left;
+  margin-right: 18px;
+  width: 50px;
+}
+.lb_menu_3 .lb_menu_3_cnt {
+  width: 940px;
+  height: 54px;
+  float: left;
+  overflow: hidden;
+}
+.lb_menu_3 .lb_menu_3_cnt a {
+  color: #6c6c6c;
+  display: block;
+  width: 90px;
+  height: 20px;
+  float: left;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.lb_menu_3 .showOrHide3 {
+  float: right;
+  cursor: pointer;
+}
+
+.lb_menu_4 {
+  height: 20px;
+  padding: 20px 0;
+  border-bottom: 1px #e3e3e3 dotted;
+}
+.lb_menu_4 .lb_menu_4_title {
+  color: #00c8ff;
+  font-weight: bold;
+  float: left;
+  margin-right: 18px;
+  width: 50px;
+}
+.lb_menu_4 .lb_menu_4_cnt {
+  width: 940px;
+  height: 20px;
+  float: left;
+  overflow: hidden;
+}
+.lb_menu_4 .lb_menu_4_cnt a {
+  color: #6c6c6c;
+  display: block;
+  width: 90px;
+  height: 20px;
+  float: left;
+  text-align: center;
+}
+
+.pb_subnav {
+  height: 40px;
+  background: #6C6C6C;
+  margin-top: 20px;
+}
+.pb_subnav a {
+  display: block;
+  float: left;
+  height: 40px;
+  width: 115px;
+  text-align: center;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.pb_subnav .pageCount {
+  height: 40px;
+  float: right;
+  color: #FFFFFF;
+  line-height: 40px;
+}
+.pb_subnav .pageCount b {
+  color: red;
+}
+.pb_subnav .pageCount span {
+  color: red;
+}
+.pb_subnav .pageCount em {
+  padding: 0 8px;
+}
+.pb_subnav .pageCount i {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.goodsList-ul {
+  width: 1120px;
+  margin-left: -20px;
+  padding: 20px 0;
+  overflow: hidden;
+}
+.goodsList-ul li {
+  float: left;
+  width: 260px;
+  height: 360px;
+  margin: 20px 0 0 20px;
+  background: #fff;
+}
+.goodsList-ul li .goods_price {
+  width: 240px;
+  height: 89px;
+  padding: 11px 10px 0;
+  position: relative;
+}
+.goodsList-ul li .goods_price .goodsName {
+  width: 240px;
+  height: 42px;
+  display: block;
+  line-height: 20px;
+  color: #6c6c6c;
+}
+.goodsList-ul li .goods_price .nowPriceAndBuy i {
+  color: red;
+}
+.goodsList-ul li .goods_price .nowPriceAndBuy span {
+  font-size: 26px;
+  color: #ff643c;
+  font-family: Arial;
+}
+.goodsList-ul li .goods_price .nowPriceAndBuy del {
+  font-size: 14px;
+  color: #c4c4c4;
+  margin-left: 6px;
+}
+.goodsList-ul li .goods_price .nowPriceAndBuy .addTocart {
+  width: 90px;
+  height: 26px;
+  display: block;
+  text-align: center;
+  line-height: 26px;
+  color: #fff;
+  float: right;
+  background: red;
+}

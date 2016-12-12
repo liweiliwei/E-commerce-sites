@@ -1,0 +1,220 @@
+.borderSide{
+	position: fixed;
+	top:0;
+	right: 0;
+	height:100%;
+	width: 35px;
+	background: #6C6C6C;
+	z-index: 999;
+	
+}
+.login{
+	position: absolute;
+	top:22%;
+	left: 0;
+	height: 35px;
+	width: 35px;
+}
+.login i{
+	display: block;
+	height: 35px;
+	width: 35px;
+	background: url(../images/sidebarico.png) no-repeat top 0 left 0 ;
+}
+.login-brand{
+	position: absolute;
+	top:0;
+	left: -150px;
+	height: 35px;
+	width: 103px;
+	display: none;
+	opacity: 0;
+	background: #6C6C6C;
+	text-align: center;
+	line-height: 35px;
+}
+.login-brand a{
+	color: #FFFFFF;
+	padding: 0 8px;
+	border-right: 1px solid #FFFFFF;
+}
+.brand-trigon{
+	position: absolute;
+	top:6px;
+	left: 95px;
+}
+.brand-trigon img{
+	height: 20px;
+	width: 20px;
+}
+.login-brand .login-a-1{
+	border: 0;
+}
+.cart{
+	position: absolute;
+	width:35px;
+	height: 127px;
+	top:30%;
+	left: 0;
+}
+.cart span{
+	display: block;
+	width: 19px;
+	padding: 0 8px;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+.cart i{
+	display: block;
+	height:35px;
+	width: 35px;
+	background: url(../images/sidebarico.png)no-repeat top -35px left 0;
+}
+.cart b{
+	display: block;
+	height:35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+	background: url(../images/sidebarico.png)no-repeat top -210px left 0;
+}
+._collect{
+	position: absolute;
+	top:53%;
+	left: 0;
+	height: 35px;
+	width: 35px;
+}
+._collect i{
+	display: block;
+	height: 35px;
+	width: 35px;
+	background: url(../images/sidebarico.png)no-repeat top -70px left 0 ;
+}
+._collect-brand{
+	position: absolute;
+	top:0;
+	left: -150px;
+	height: 35px;
+	width: 103px;
+	display: none;
+	opacity: 0;
+	background: #6C6C6C;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+
+._history{
+	position: absolute;
+	top:60%;
+	left: 0;
+	height: 35px;
+	width: 35px;
+
+}
+._history i{
+	display: block;
+	height: 35px;
+	width: 35px;
+	background: url(../images/sidebarico.png)no-repeat top -105px left 0 ;
+}
+._history-brand{
+	position: absolute;
+	top:0;
+	left: -150px;
+	height: 35px;
+	width: 103px;
+	display: none;
+	opacity: 0;
+	background: #6C6C6C;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+.twoCode{
+	position: absolute;
+	top:75%;
+	left: 0;
+	height: 35px;
+	width: 35px;
+
+}
+.twoCode i{
+	display: block;
+	height: 35px;
+	width: 35px;
+	background: url(../images/sidebarico.png)no-repeat top -140px left 0 ;
+}
+.twoCode-brand{
+	position: absolute;
+	right: 35px;
+	bottom: 0;
+	background: #6C6C6C;
+	width: 370px;
+	height: 150px;
+	padding-top: 20px;
+	display: none;
+	
+}
+.twoCode-brand dl{
+	float: left;
+	margin-left:10px;
+}
+.twoCode-brand dd{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.twoCode-brand-trigon{
+	position: absolute;
+	right: -12px;
+	bottom:6px;
+}
+.twoCode-brand-trigon img{
+	height: 20px;
+	width: 20px;
+}
+._service{
+	position: absolute;
+	top:82%;
+	left: 0;
+	height: 35px;
+	width: 35px;
+
+}
+._service i{
+	display: block;
+	height: 35px;
+	width: 35px;
+	background: url(../images/sidebarico.png)no-repeat top -175px left 0 ;
+}
+._service-brand{
+	position: absolute;
+	top:0;
+	left: -150px;
+	height: 35px;
+	width: 103px;
+	display: none;
+	opacity: 0;
+	background: #6C6C6C;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+.goTop{
+	position: absolute;
+	top:91%;
+	left: 0;
+	height: 35px;
+	width: 35px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 35px;
+
+}

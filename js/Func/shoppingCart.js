@@ -1,0 +1,9 @@
+require(["config"],function(){
+	require(["jquery","shoppingCartBrand","commonBrand"],function($,sab,cB){
+		$(function(){
+			sab.init().start();
+			cB.headerTopNav();
+			cB.checkUser();
+		})
+	})
+})

@@ -1,0 +1,9 @@
+body,ul,li,dl,dt,dd,table,h1,h2,h3,h4,h5,h6,p,form,img,fieldset,legend,input{
+	margin: 0;padding: 0;
+}
+h1,h2,h3,h4,h5,h6{font-weight: 100;font-size: 12px;}
+i,em,b{font-style: normal;}
+a{text-decoration: none;color: #000000;}
+li{list-style: none;}
+img{border:0;}
+body{font-size:12px; font-family:"微软雅黑";}
